@@ -237,6 +237,101 @@ body .font-heading {
 }
 
 
+
+
+
+
+.best-offer {
+    margin-top: 50px;
+    width: 1320px;
+    height: 482px;
+    background-color: #FFF;
+    max-width: max-content;
+}
+
+.best-offer .row-1 .r1-new {
+    margin-bottom: 0px;
+    color: #F00;
+    text-align: left;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.best-offer .row-1 .r1-coming {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.best-offer .row-1 .r1-description {
+    color: rgba(7, 2, 17, 0.60);
+
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
+}
+
+.row-2{
+    padding-left: 20px;
+}
+
+
+.row-3 {
+    padding-left: 70px;
+    
+}
+
+.best-offer .row-3 .r3-year {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    color: #F00;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.best-offer .row-3 .r3-description {
+    padding-top: 10 px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 160% */
+}
+
+.best-offer .r-row-3 .r3-photo {
+    padding-top: 50px;
+}
+
+
+.best-offer .row-2 .ellips1-pic {
+    border-radius: 463px;
+    padding: 10px;
+    border: 15px solid #F00;
+    max-width: max-content;
+}
+
+
+
+
+
+
 .portfolio {
     margin-top: 120px;
     background: #FFF;
@@ -283,12 +378,13 @@ body .font-heading {
     border-radius: 16px;
     background: lightgray;
     margin-bottom: 0px;
+    gap: 24px;
     background-repeat: no-repeat;
     transition: background-color 0.3s ease-in-out;
 }
 
 .all-image-ratio:hover {
-    background-color: rgb(217, 27, 27); 
+    background-color: rgb(217, 27, 27);
 }
 
 
