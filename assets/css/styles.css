@@ -1,19 +1,26 @@
 body .font-heading {
     font-family: 'Merriweather', serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
+}
+
+.body {
+    margin: 50px 140px;
 }
 
 .header {
-    margin:50px 140px;
+    /* margin:50px 140px; */
     width: 1320px;
     height: 600px;
     flex-shrink: 0;
     border-radius: 16px;
-    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/Banner_Image.png');
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/Banner Image.png');
     background-repeat: no-repeat;
     background-position: center;
-    
-}
 
+}
 
 .header-1 {
     padding-top: 177px;
@@ -28,7 +35,7 @@ body .font-heading {
 }
 
 .header-2 {
-    
+
     padding-bottom: 177px;
     margin-top: 0px;
     color: #FFF;
@@ -38,4 +45,100 @@ body .font-heading {
     font-style: normal;
     font-weight: 900;
     line-height: 95px;
+}
+
+/* section portion */
+
+.text-1 {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 2px;
+}
+
+.text-2 {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 2px;
+}
+
+.text-3 {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 2px;
+}
+
+.image-1 {
+    margin: 0px 220px 120px;
+    width: 802.9px;
+    height: 500px;
+    flex-shrink: 0;
+}
+
+.banner {
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/Vectorrr.png');
+    width: 1320px;
+    height: 600px;
+    flex-shrink: 0;
+    display: flex;
+}
+
+.banner-title {
+    width: 642px;
+    height: 176px;
+    margin: 126px 0px 24px 126px;
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+}
+
+.banner-description {
+    width: 697px;
+    height: 60px;
+    margin: 33px 0px 48px 126px;
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+}
+
+.button-primary {
+    margin-left: 158px;
+    margin-bottom: 142px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    background-color: transparent;
+}
+
+.banner .image-2 {
+    margin: 68px 138px 0px 94px;
+    width: 319.83px;
+    height: 464.662px;
 }
