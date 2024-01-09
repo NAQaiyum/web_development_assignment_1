@@ -283,14 +283,14 @@ body .font-heading {
     /* 160% */
 }
 
-.row-2{
+.row-2 {
     padding-left: 20px;
 }
 
 
 .row-3 {
     padding-left: 70px;
-    
+
 }
 
 .best-offer .row-3 .r3-year {
@@ -473,13 +473,18 @@ body .font-heading {
 /* footer section */
 
 .footer-background {
+
     width: 1600px;
     height: 609px;
     flex-shrink: 0;
     background: #070211;
+    display: flex;
 }
 
 .location {
+    margin-top: 120px;
+    margin-left: 140px;
+    margin-bottom: 100px;
     color: #FFF;
     font-family: Inter;
     font-size: 24px;
@@ -490,14 +495,32 @@ body .font-heading {
     justify-content: space-between;
 }
 
+.copyright {
+    margin-bottom: 120px;
+    margin-top: 260px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
 .social-links {
+    margin-left: 100px;
+    margin-top: 300px;
+    margin-bottom: 250px;
     width: 64px;
     height: 64px;
     flex-shrink: 0;
-    justify-content: center;
+    display: flex;
+    align-items: center;
 }
 
-.copyright {
+.contact ul {
+    margin-left: 300px;
+    margin-top: 120px;
+    margin-right: 100px;
     color: #FFF;
     font-family: Inter;
     font-size: 24px;
@@ -505,4 +528,15 @@ body .font-heading {
     font-weight: 500;
     line-height: normal;
     justify-content: space-between;
+    background-color: transparent;
+    color: white;
+}
+
+.unsubscribe{
+    margin-left: 300px;
+    margin-bottom: 120px;
+    margin-top: 260px;
+    margin-right: 10px;
+    background-color: transparent;
+
 }
