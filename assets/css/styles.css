@@ -209,14 +209,8 @@ body .font-heading {
 }
 
 .button-second {
-    /* margin-bottom: 110px; */
+    
     margin: 0px 100px 110px 190px;
-    /* margin-left: 576px;
-    margin-right: 576px; */
-    /* padding-left: 576px;
-    padding-right: 576px; */
-    /* width: 167px;
-    height: 56px; */
     display: inline-flex;
     padding: 16px 32px;
     justify-content: center;
@@ -552,3 +546,4 @@ body .font-heading {
     background-color: transparent;
     color: white;
 }
+
