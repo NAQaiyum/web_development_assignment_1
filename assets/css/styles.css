@@ -237,12 +237,64 @@ body .font-heading {
 }
 
 
+.portfolio {
+    margin-top: 120px;
+    background: #FFF;
+}
 
+.portfolio-title {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 0px;
+}
 
+.portfolio-heading {
+    margin-top: 0px;
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 0px;
+
+}
+
+.portfolio-description {
+    margin-top: 0px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
+}
+
+.all-image-ratio {
+    width: 424px;
+    height: 450px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: lightgray;
+    margin-bottom: 0px;
+    background-repeat: no-repeat;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.all-image-ratio:hover {
+    background-color: rgb(217, 27, 27); 
+}
 
 
 
 .newsletter {
+    margin-top: 120px;
     width: 1320px;
     height: 616px;
     flex-shrink: 0;
