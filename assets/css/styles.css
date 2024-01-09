@@ -520,7 +520,7 @@ body .font-heading {
 .contact ul {
     margin-left: 300px;
     margin-top: 120px;
-    margin-right: 100px;
+    margin-right: 10px;
     color: #FFF;
     font-family: Inter;
     font-size: 24px;
@@ -539,4 +539,9 @@ body .font-heading {
     margin-right: 10px;
     background-color: transparent;
 
+}
+
+.end{
+    background-color: transparent;
+    color: white;
 }
